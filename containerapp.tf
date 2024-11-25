@@ -13,13 +13,13 @@ resource "azurerm_container_app" "container_app" {
     }
   }
 
-  ingress {
-    allow_insecure_connections = false
-    exposed_port = 80
-    target_port = 80
+#   ingress {
+#     allow_insecure_connections = false
+#     exposed_port = 80
+#     target_port = 80
 
-    traffic_weight {
-      percentage = 100
-    }
-  }
+#     traffic_weight {
+#       percentage = 100
+#     }
+#   }
 }
