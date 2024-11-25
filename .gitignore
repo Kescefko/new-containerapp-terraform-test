@@ -1,1 +1,4 @@
 terraform-trace.log
+.terraform.tfstate.lock.info
+.gitignore
+terraform.tfstate
